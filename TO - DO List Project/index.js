@@ -56,7 +56,6 @@ function addToDoListItem(task) {
   });
 }
 
-// Function to update localStorage with current task list
 function updateLocalStorage() {
   localStorage.setItem("tasks", JSON.stringify(tasks));
 }
